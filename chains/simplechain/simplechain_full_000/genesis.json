@@ -1,0 +1,57 @@
+{
+  "chain_id": "simplechain",
+  "accounts": [
+    {
+      "address": "46F83D9A5380E82ACC7789962BE639ED0AE5D414",
+      "amount": 99999999999999,
+      "name": "simplechain_full_000",
+      "permissions": {
+        "base": {
+          "perms": 16383,
+          "set": 16383
+        },
+        "roles": []
+      }
+    },
+    {
+      "address": "18ED9D93FAB19020AC5F962085AD9B2FE79264F0",
+      "amount": 9999999999,
+      "name": "simplechain_root_000",
+      "permissions": {
+        "base": {
+          "perms": 16383,
+          "set": 16383
+        },
+        "roles": []
+      }
+    },
+    {
+      "address": "6CD5971439E12CC5687EB3FF315F224BB1C230C5",
+      "amount": 9999999999,
+      "name": "simplechain_root_001",
+      "permissions": {
+        "base": {
+          "perms": 16383,
+          "set": 16383
+        },
+        "roles": []
+      }
+    }
+  ],
+  "validators": [
+    {
+      "pub_key": [
+        1,
+        "829B8C8BA5D1E49C0988EF218ECE489377D59AB372437CCBAFAF70574555AFAD"
+      ],
+      "name": "simplechain_full_000",
+      "amount": 9999999999,
+      "unbond_to": [
+        {
+          "address": "46F83D9A5380E82ACC7789962BE639ED0AE5D414",
+          "amount": 9999999999
+        }
+      ]
+    }
+  ]
+}

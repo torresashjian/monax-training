@@ -1,0 +1,21 @@
+name = "ipfs"
+
+[service]
+name = "ipfs"
+image = "quay.io/eris/ipfs"
+data_container = true
+user = "root"
+
+[dependencies]
+services = ["keys"]
+
+[maintainer]
+name = "Monax Industries"
+email = "support@monax.io"
+
+[location]
+repository = "github.com/eris-ltd/eris-services"
+
+[machine]
+include = ["docker"]
+requires = [""]
